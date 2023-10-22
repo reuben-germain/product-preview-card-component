@@ -5,6 +5,9 @@
   --very-dark-blue-900: hsl(212, 21%, 14%);
   --dark-grayish-blue-400: hsl(228, 12%, 48%);
   --white-100: hsl(0, 0%, 100%);
+
+  --fw-regular: 500;
+  --fw-bold: 700;
 }
 
 /*
