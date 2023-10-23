@@ -139,3 +139,9 @@ overflow: hidden;
   font-family: var(--ff-accent);
   color: var(--very-dark-blue-900);
 }
+
+.product__price{
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  color: var(--dark-cyan-400);
+}
