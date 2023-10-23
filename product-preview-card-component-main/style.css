@@ -91,5 +91,24 @@ body{
 
   /* for this project only */
   display: grid;
+
+  /*If for some reason the centering does not work, add the min height attr below, uncomment. But it seems to be working*/
+  /*min-height: 100vh;*/
   place-content: center;
+  margin: 1rem;
+}
+
+/* utilities */
+.flex-group{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/*
+Product styles
+*/
+
+.product{
+
 }
