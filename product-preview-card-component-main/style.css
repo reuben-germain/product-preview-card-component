@@ -78,3 +78,11 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/*
+General styling
+*/
+body{
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+}
