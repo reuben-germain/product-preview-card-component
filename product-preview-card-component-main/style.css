@@ -121,4 +121,5 @@ overflow: hidden;
   border: 3px solid red;
   padding: var(--content-padding);
   display: grid;
+  gap: 1rem;
 }
