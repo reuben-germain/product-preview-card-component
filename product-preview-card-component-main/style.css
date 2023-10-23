@@ -112,4 +112,5 @@ Product styles
 .product{
 background-color: var(--white-100);
 border-radius: 0.5rem;
+overflow: hidden;
 }
