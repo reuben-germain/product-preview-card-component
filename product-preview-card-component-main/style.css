@@ -40,7 +40,7 @@ body {
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -77,6 +77,10 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+h1, h2{
+  line-height: 1;
 }
 
 /*
@@ -122,4 +126,16 @@ overflow: hidden;
   padding: var(--content-padding);
   display: grid;
   gap: var(--content-spacing);
+}
+
+.product__category{
+  font-size: 0.8125rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.product__title{
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  color: var(--very-dark-blue-900);
 }
