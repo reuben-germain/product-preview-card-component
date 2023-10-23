@@ -119,7 +119,6 @@ overflow: hidden;
 }
 
 .product__content{
-  border: 3px solid red;
   padding: var(--content-padding);
   display: grid;
   gap: var(--content-spacing);
