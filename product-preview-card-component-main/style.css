@@ -85,4 +85,7 @@ General styling
 body{
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
+  font-size: 0.875rem;
+  color: var(--dark-grayish-blue-400);
+  background-color: var(--cream-200);
 }
