@@ -120,6 +120,23 @@ body{
   white-space: nowrap;
   width: 1px;
 }
+
+/* button */
+button{
+cursor: pointer;
+padding: 0.75em 1.5em;
+text-decoration: none;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+border: 0;
+border-radius: 0.5rem;
+background-color: var(--dark-cyan-400);
+color: var(--white-100);
+font-weight: var(--fw-bold);
+font-size: 0.925rem;
+}
 /*
 Product styles
 */
