@@ -88,4 +88,8 @@ body{
   font-size: 0.875rem;
   color: var(--dark-grayish-blue-400);
   background-color: var(--cream-200);
+
+  /* for this project only */
+  display: grid;
+  place-content: center;
 }
