@@ -110,7 +110,13 @@ Product styles
 */
 
 .product{
+  --content-padding: 1.5rem;
+
 background-color: var(--white-100);
 border-radius: 0.5rem;
 overflow: hidden;
+}
+
+.product__content{
+  padding: var(--content-padding);
 }
