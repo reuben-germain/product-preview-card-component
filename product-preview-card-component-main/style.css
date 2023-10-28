@@ -141,9 +141,9 @@ font-size: 0.925rem;
 
 .button[data-icon="shopping-cart"]::before {
 content: "";
+background-image: url(images/icon-cart.svg);
 width: 15px;
 height: 16px;
-background: red;
 }
 
 .button:is(:hover, :focus) {
