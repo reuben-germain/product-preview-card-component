@@ -80,14 +80,15 @@ h6 {
   overflow-wrap: break-word;
 }
 
-h1, h2{
+h1,
+h2 {
   line-height: 1;
 }
 
 /*
 General styling
 */
-body{
+body {
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
   font-size: 0.875rem;
@@ -105,7 +106,7 @@ body{
 
 /* utilities */
 
-.flex-group{
+.flex-group {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
@@ -123,64 +124,72 @@ body{
 }
 
 /* button */
-button{
-cursor: pointer;
-padding: 0.75em 1.5em;
-text-decoration: none;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-gap: 0.75rem;
-border: 0;
-border-radius: 0.5rem;
-background-color: var(--dark-cyan-400);
-color: var(--white-100);
-font-weight: var(--fw-bold);
-font-size: 0.925rem;
+button {
+  cursor: pointer;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: var(--dark-cyan-400);
+  color: var(--white-100);
+  font-weight: var(--fw-bold);
+  font-size: 0.925rem;
 }
 
 .button[data-icon="shopping-cart"]::before {
-content: "";
-background-image: url(images/icon-cart.svg);
-width: 15px;
-height: 16px;
+  content: "";
+  background-image: url(images/icon-cart.svg);
+  width: 15px;
+  height: 16px;
 }
 
 .button:is(:hover, :focus) {
-background-color: var(--dark-cyan-500);
+  background-color: var(--dark-cyan-500);
 }
+
 /*
 Product styles
 */
 
-.product{
+.product {
   --content-padding: 1.5rem;
   --content-spacing: 1rem;
 
-background-color: var(--white-100);
-border-radius: 0.5rem;
-overflow: hidden;
+  display: grid;
+  background-color: var(--white-100);
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
-.product__content{
+@media (min-width: 600px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.product__content {
   padding: var(--content-padding);
   display: grid;
   gap: var(--content-spacing);
 }
 
-.product__category{
+.product__category {
   font-size: 0.8125rem;
   letter-spacing: 6px;
   text-transform: uppercase;
 }
 
-.product__title{
+.product__title {
   font-size: 2rem;
   font-family: var(--ff-accent);
   color: var(--very-dark-blue-900);
 }
 
-.product__price{
+.product__price {
   font-size: 2rem;
   font-family: var(--ff-accent);
   color: var(--dark-cyan-400);
