@@ -139,6 +139,13 @@ font-weight: var(--fw-bold);
 font-size: 0.925rem;
 }
 
+.button[data-icon="shopping-cart"]::before {
+content: "";
+width: 15px;
+height: 16px;
+background: red;
+}
+
 .button:is(:hover, :focus) {
 background-color: var(--dark-cyan-500);
 }
