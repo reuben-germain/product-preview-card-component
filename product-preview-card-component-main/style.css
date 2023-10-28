@@ -1,5 +1,6 @@
 :root {
   --dark-cyan-400: hsl(158, 36%, 37%);
+  --dark-cyan-500: hsl(158, 36%, 20%);
   --cream-200: hsl(30, 38%, 92%);
 
   --very-dark-blue-900: hsl(212, 21%, 14%);
@@ -136,6 +137,10 @@ background-color: var(--dark-cyan-400);
 color: var(--white-100);
 font-weight: var(--fw-bold);
 font-size: 0.925rem;
+}
+
+.button:is(:hover, :focus) {
+background-color: var(--dark-cyan-500);
 }
 /*
 Product styles
