@@ -163,6 +163,7 @@ Product styles
   background-color: var(--white-100);
   border-radius: 0.5rem;
   overflow: hidden;
+  max-width: 600px;
 }
 
 @media (min-width: 600px) {
